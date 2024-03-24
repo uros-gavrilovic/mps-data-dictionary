@@ -156,6 +156,12 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="26KSwt7aMeM" resolve="Constraint" />
     </node>
+    <node concept="1TJgyj" id="26KSwt7aMfc" role="1TKVEi">
+      <property role="IQ2ns" value="2427688720039355340" />
+      <property role="20kJfa" value="field" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="26KSwt7aMf4" resolve="Field" />
+    </node>
   </node>
   <node concept="1TIwiD" id="26KSwt7aMeq">
     <property role="EcuMT" value="2427688720039355290" />
@@ -191,6 +197,17 @@
     <property role="EcuMT" value="2427688720039355330" />
     <property role="TrG5h" value="Boolean" />
     <ref role="1TJDcQ" node="26KSwt7aMeq" resolve="Domain" />
+  </node>
+  <node concept="1TIwiD" id="26KSwt7aMf4">
+    <property role="EcuMT" value="2427688720039355332" />
+    <property role="TrG5h" value="Field" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="26KSwt7aMf5" role="PzmwI">
+      <ref role="PrY4T" node="26KSwt7aMdy" resolve="IAbstractElement" />
+    </node>
+    <node concept="PrWs8" id="26KSwt7aMf8" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 
