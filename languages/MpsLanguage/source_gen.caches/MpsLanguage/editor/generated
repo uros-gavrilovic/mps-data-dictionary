@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-dhmuhohpxd55sxd88q91t80pugowst6">
-  <files names="Aggregation_Editor.java:Aggregation_EditorBuilder_a.java:Constraint_Editor.java:Constraint_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:ExclusiveSpecialization_Editor.java:ExclusiveSpecialization_EditorBuilder_a.java:FieldDefinition_SubstituteMenu.java:NonExclusiveSpecialization_Editor.java:NonExclusiveSpecialization_EditorBuilder_a.java:Union_Editor.java:Union_EditorBuilder_a.java" />
+<product version="3" modelHash="-1kixtt3suxn4acf36h8w70ofq8v8p80">
+  <files names="Aggregation_Editor.java:Aggregation_EditorBuilder_a.java:Constraint_Editor.java:Constraint_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:ExclusiveSpecialization_Editor.java:ExclusiveSpecialization_EditorBuilder_a.java:FieldDefinition_Editor.java:FieldDefinition_EditorBuilder_a.java:FieldDefinition_SubstituteMenu.java:NonExclusiveSpecialization_Editor.java:NonExclusiveSpecialization_EditorBuilder_a.java:Union_Editor.java:Union_EditorBuilder_a.java" />
 </product>
 
