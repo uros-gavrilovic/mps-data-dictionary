@@ -47,7 +47,7 @@
     <property role="EcuMT" value="2427688720039355222" />
     <property role="TrG5h" value="DataDictionary" />
     <property role="19KtqR" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26KSwt7aMdp" role="1TKVEi">
       <property role="IQ2ns" value="2427688720039355225" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -62,7 +62,7 @@
   <node concept="1TIwiD" id="26KSwt7aMdo">
     <property role="EcuMT" value="2427688720039355224" />
     <property role="TrG5h" value="StructureDefinition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="26KSwt7aMdK" role="1TKVEi">
       <property role="IQ2ns" value="2427688720039355248" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -99,7 +99,7 @@
   <node concept="1TIwiD" id="26KSwt7aMdN">
     <property role="EcuMT" value="2427688720039355251" />
     <property role="TrG5h" value="Aggregation" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="26KSwt7aMdO" role="PzmwI">
       <ref role="PrY4T" node="26KSwt7aMdw" resolve="IAbstractStructure" />
     </node>
@@ -114,7 +114,7 @@
   <node concept="1TIwiD" id="26KSwt7aMdW">
     <property role="EcuMT" value="2427688720039355260" />
     <property role="TrG5h" value="ExclusiveSpecialization" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="26KSwt7aMdX" role="PzmwI">
       <ref role="PrY4T" node="26KSwt7aMdR" resolve="IAbstractSpecialization" />
     </node>
@@ -122,7 +122,7 @@
   <node concept="1TIwiD" id="26KSwt7aMe0">
     <property role="EcuMT" value="2427688720039355264" />
     <property role="TrG5h" value="NonExclusiveSpecialization" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="26KSwt7aMe2" role="PzmwI">
       <ref role="PrY4T" node="26KSwt7aMdR" resolve="IAbstractSpecialization" />
     </node>
@@ -130,7 +130,7 @@
   <node concept="1TIwiD" id="26KSwt7aMea">
     <property role="EcuMT" value="2427688720039355274" />
     <property role="TrG5h" value="Union" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="26KSwt7aMeb" role="PzmwI">
       <ref role="PrY4T" node="26KSwt7aMdw" resolve="IAbstractStructure" />
     </node>
@@ -138,7 +138,7 @@
   <node concept="1TIwiD" id="26KSwt7aMeh">
     <property role="EcuMT" value="2427688720039355281" />
     <property role="TrG5h" value="FieldDefinition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="26KSwt7aMei" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -166,12 +166,12 @@
   <node concept="1TIwiD" id="26KSwt7aMeq">
     <property role="EcuMT" value="2427688720039355290" />
     <property role="TrG5h" value="Domain" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="26KSwt7aMeM">
     <property role="EcuMT" value="2427688720039355314" />
     <property role="TrG5h" value="Constraint" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="26KSwt7aMeR" role="1TKVEl">
       <property role="IQ2nx" value="2427688720039355319" />
       <property role="TrG5h" value="constraintDefinition" />
@@ -201,7 +201,7 @@
   <node concept="1TIwiD" id="26KSwt7aMf4">
     <property role="EcuMT" value="2427688720039355332" />
     <property role="TrG5h" value="Field" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="26KSwt7aMf5" role="PzmwI">
       <ref role="PrY4T" node="26KSwt7aMdy" resolve="IAbstractElement" />
     </node>

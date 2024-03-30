@@ -15,6 +15,7 @@
   </dependencies>
   <languageVersions>
     <language slang="l:f06cb947-e5a8-4701-9c06-29d6e3bd07f9:MpsLanguage" version="0" />
+    <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
