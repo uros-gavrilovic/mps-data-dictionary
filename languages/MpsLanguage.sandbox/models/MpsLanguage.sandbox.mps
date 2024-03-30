@@ -23,6 +23,7 @@
         <child id="2427688720039355240" name="elements" index="1AAW5J" />
       </concept>
       <concept id="2427688720039355251" name="MpsLanguage.structure.Aggregation" flags="ng" index="1AAW5O" />
+      <concept id="2427688720039355260" name="MpsLanguage.structure.ExclusiveSpecialization" flags="ng" index="1AAW5V" />
       <concept id="2427688720039355281" name="MpsLanguage.structure.FieldDefinition" flags="ng" index="1AAW6m">
         <reference id="2427688720039355340" name="field" index="1AAW7b" />
         <child id="2427688720039355294" name="domain" index="1AAW6p" />
@@ -32,32 +33,50 @@
         <property id="2427688720039355319" name="constraintDefinition" index="1AAW6K" />
       </concept>
       <concept id="2427688720039355327" name="MpsLanguage.structure.String" flags="ng" index="1AAW6S" />
+      <concept id="2427688720039355325" name="MpsLanguage.structure.Double" flags="ng" index="1AAW6U" />
       <concept id="2427688720039355332" name="MpsLanguage.structure.Field" flags="ng" index="1AAW73" />
     </language>
   </registry>
   <node concept="1AAW5h" id="7CeylrB$XTG">
     <property role="TrG5h" value="Rečnik Podataka" />
-    <node concept="1AAW5v" id="7CeylrB_PNs" role="1AAW5u">
-      <node concept="1AAW5O" id="7CeylrB_PN$" role="1AAW5R">
-        <node concept="1AAW73" id="7CeylrB_PNB" role="1AAW5J">
+    <node concept="1AAW5v" id="7CeylrBAg8t" role="1AAW5u">
+      <property role="TrG5h" value="Sender" />
+      <node concept="1AAW5O" id="7CeylrBAg8_" role="1AAW5R">
+        <node concept="1AAW73" id="7CeylrBAg8C" role="1AAW5J">
           <property role="TrG5h" value="firstName" />
         </node>
-        <node concept="1AAW73" id="7CeylrB_PNG" role="1AAW5J">
+        <node concept="1AAW73" id="7CeylrBAg8H" role="1AAW5J">
           <property role="TrG5h" value="lastName" />
         </node>
       </node>
-      <node concept="1AAW6m" id="7CeylrB_PNu" role="1AAW69">
-        <property role="TrG5h" value="firstNameDefintion" />
-        <ref role="1AAW7b" node="7CeylrB_PNB" resolve="firstName" />
-        <node concept="1AAW6S" id="7CeylrB_V7F" role="1AAW6p" />
-        <node concept="1AAW6P" id="7CeylrB_PNM" role="1AAW6G">
-          <property role="1AAW6K" value="max length 10" />
+      <node concept="1AAW6m" id="7CeylrBAg8v" role="1AAW69">
+        <property role="TrG5h" value="firstNameDefinition" />
+        <ref role="1AAW7b" node="7CeylrBAg8C" resolve="firstName" />
+        <node concept="1AAW6U" id="7CeylrBAg8L" role="1AAW6p" />
+        <node concept="1AAW6P" id="7CeylrBAg8Q" role="1AAW6G">
+          <property role="1AAW6K" value="must not be null" />
         </node>
-        <node concept="1AAW6P" id="7CeylrB_PNP" role="1AAW6G">
-          <property role="1AAW6K" value="not empty" />
+        <node concept="1AAW6P" id="7CeylrBAg8T" role="1AAW6G">
+          <property role="1AAW6K" value="must be max" />
         </node>
-        <node concept="1AAW6P" id="7CeylrB_V7p" role="1AAW6G">
-          <property role="1AAW6K" value="not null" />
+      </node>
+    </node>
+    <node concept="1AAW5v" id="7CeylrBAkmr" role="1AAW5u">
+      <property role="TrG5h" value="Receiver" />
+      <node concept="1AAW5V" id="7CeylrBAkmF" role="1AAW5R">
+        <node concept="1AAW73" id="7CeylrBAkmI" role="1AAW5J">
+          <property role="TrG5h" value="firstName" />
+        </node>
+        <node concept="1AAW73" id="7CeylrBAkmN" role="1AAW5J">
+          <property role="TrG5h" value="lastName" />
+        </node>
+      </node>
+      <node concept="1AAW6m" id="7CeylrBAkmt" role="1AAW69">
+        <property role="TrG5h" value="firstNameDef" />
+        <ref role="1AAW7b" node="7CeylrBAkmI" resolve="firstName" />
+        <node concept="1AAW6S" id="7CeylrBAkmR" role="1AAW6p" />
+        <node concept="1AAW6P" id="7CeylrBAkmU" role="1AAW6G">
+          <property role="1AAW6K" value="sd sdsdsd" />
         </node>
       </node>
     </node>

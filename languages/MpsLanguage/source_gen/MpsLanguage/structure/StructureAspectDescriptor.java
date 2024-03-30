@@ -226,6 +226,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   private static ConceptDescriptor createDescriptorForStructureDefinition() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("MpsLanguage", "StructureDefinition", 0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b2358L);
     b.class_(false, false, false);
+    b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:b1747978-41c4-4b01-97af-14b00f966941(MpsLanguage.structure)/2427688720039355224");
     b.version(3);
     b.aggregate("structure", 0x21b0e207472b2370L).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b2360L).optional(false).ordered(true).multiple(false).origin("2427688720039355248").done();

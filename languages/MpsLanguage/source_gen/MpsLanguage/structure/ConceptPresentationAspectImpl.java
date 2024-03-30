@@ -137,7 +137,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
       case LanguageConceptSwitch.StructureDefinition:
         if (props_StructureDefinition == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("StructureDefinition");
+          cpb.presentationByName();
           props_StructureDefinition = cpb.create();
         }
         return props_StructureDefinition;

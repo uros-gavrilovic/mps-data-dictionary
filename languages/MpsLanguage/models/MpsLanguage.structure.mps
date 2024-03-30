@@ -77,6 +77,9 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="26KSwt7aMeh" resolve="FieldDefinition" />
     </node>
+    <node concept="PrWs8" id="7CeylrBAch2" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="PlHQZ" id="26KSwt7aMdw">
     <property role="EcuMT" value="2427688720039355232" />

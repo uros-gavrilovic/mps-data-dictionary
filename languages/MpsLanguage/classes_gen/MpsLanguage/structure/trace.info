@@ -16,7 +16,7 @@
       <unit at="10,0,60,0" name="MpsLanguage.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="15,0,244,0" name="MpsLanguage.structure.StructureAspectDescriptor" />
+      <unit at="15,0,245,0" name="MpsLanguage.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:b1747978-41c4-4b01-97af-14b00f966941(MpsLanguage.structure)/2427688720039355222">
@@ -58,8 +58,8 @@
     <file name="ConceptPresentationAspectImpl.java">
       <node id="2427688720039355224" at="27,0,28,0" concept="1" trace="props_StructureDefinition" />
       <node id="2427688720039355224" at="138,48,139,76" concept="3" />
-      <node id="2427688720039355224" at="139,76,140,53" concept="0" />
-      <node id="2427688720039355224" at="140,53,141,51" concept="0" />
+      <node id="2427688720039355224" at="139,76,140,35" concept="0" />
+      <node id="2427688720039355224" at="140,35,141,51" concept="0" />
       <node id="2427688720039355224" at="142,9,143,41" concept="4" />
       <node id="2427688720039355224" at="137,53,142,9" concept="2" />
       <scope id="2427688720039355224" at="138,48,141,51">
@@ -76,17 +76,18 @@
       <node id="2427688720039355224" at="84,53,85,44" concept="4" />
       <node id="2427688720039355224" at="226,77,227,165" concept="3" />
       <node id="2427688720039355224" at="227,165,228,34" concept="0" />
-      <node id="2427688720039355224" at="228,34,229,98" concept="0" />
-      <node id="2427688720039355224" at="229,98,230,17" concept="0" />
-      <node id="2427688720039355248" at="230,17,231,203" concept="0" />
-      <node id="2427688720039355278" at="231,203,232,209" concept="0" />
-      <node id="2427688720039355224" at="232,209,233,22" concept="4" />
-      <node id="2427688720039355224" at="226,0,235,0" concept="7" trace="createDescriptorForStructureDefinition#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="2427688720039355224" at="228,34,229,71" concept="0" />
+      <node id="2427688720039355224" at="229,71,230,98" concept="0" />
+      <node id="2427688720039355224" at="230,98,231,17" concept="0" />
+      <node id="2427688720039355248" at="231,17,232,203" concept="0" />
+      <node id="2427688720039355278" at="232,203,233,209" concept="0" />
+      <node id="2427688720039355224" at="233,209,234,22" concept="4" />
+      <node id="2427688720039355224" at="226,0,236,0" concept="7" trace="createDescriptorForStructureDefinition#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="2427688720039355224" at="84,53,85,44" />
-      <scope id="2427688720039355224" at="226,77,233,22">
+      <scope id="2427688720039355224" at="226,77,234,22">
         <var name="b" id="2427688720039355224" />
       </scope>
-      <scope id="2427688720039355224" at="226,0,235,0" />
+      <scope id="2427688720039355224" at="226,0,236,0" />
     </file>
   </root>
   <root nodeRef="r:b1747978-41c4-4b01-97af-14b00f966941(MpsLanguage.structure)/2427688720039355232">
@@ -116,7 +117,7 @@
       <node id="2427688720039355232" at="195,98,196,17" concept="0" />
       <node id="2427688720039355240" at="196,17,197,200" concept="0" />
       <node id="2427688720039355232" at="197,200,198,22" concept="4" />
-      <node id="2427688720039355232" at="237,34,238,76" concept="0" />
+      <node id="2427688720039355232" at="238,34,239,76" concept="0" />
       <node id="2427688720039355232" at="191,0,200,0" concept="7" trace="createDescriptorForIAbstractStructure#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="2427688720039355232" at="76,52,77,43" />
       <scope id="2427688720039355232" at="191,76,198,22">
@@ -312,17 +313,17 @@
     <file name="StructureAspectDescriptor.java">
       <node id="2427688720039355274" at="32,0,33,0" concept="1" trace="myConceptUnion" />
       <node id="2427688720039355274" at="86,39,87,30" concept="4" />
-      <node id="2427688720039355274" at="235,63,236,151" concept="3" />
-      <node id="2427688720039355274" at="236,151,237,34" concept="0" />
-      <node id="2427688720039355274" at="238,76,239,98" concept="0" />
-      <node id="2427688720039355274" at="239,98,240,17" concept="0" />
-      <node id="2427688720039355274" at="240,17,241,22" concept="4" />
-      <node id="2427688720039355274" at="235,0,243,0" concept="7" trace="createDescriptorForUnion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="2427688720039355274" at="236,63,237,151" concept="3" />
+      <node id="2427688720039355274" at="237,151,238,34" concept="0" />
+      <node id="2427688720039355274" at="239,76,240,98" concept="0" />
+      <node id="2427688720039355274" at="240,98,241,17" concept="0" />
+      <node id="2427688720039355274" at="241,17,242,22" concept="4" />
+      <node id="2427688720039355274" at="236,0,244,0" concept="7" trace="createDescriptorForUnion#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="2427688720039355274" at="86,39,87,30" />
-      <scope id="2427688720039355274" at="235,63,241,22">
+      <scope id="2427688720039355274" at="236,63,242,22">
         <var name="b" id="2427688720039355274" />
       </scope>
-      <scope id="2427688720039355274" at="235,0,243,0" />
+      <scope id="2427688720039355274" at="236,0,244,0" />
     </file>
   </root>
   <root nodeRef="r:b1747978-41c4-4b01-97af-14b00f966941(MpsLanguage.structure)/2427688720039355281">
