@@ -6,10 +6,61 @@
   </languages>
   <imports />
   <registry>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
     <language id="f06cb947-e5a8-4701-9c06-29d6e3bd07f9" name="MpsLanguage">
-      <concept id="2427688720039355222" name="MpsLanguage.structure.DataDictionary" flags="ng" index="1AAW5h" />
+      <concept id="2427688720039355222" name="MpsLanguage.structure.DataDictionary" flags="ng" index="1AAW5h">
+        <child id="2427688720039355225" name="structures" index="1AAW5u" />
+      </concept>
+      <concept id="2427688720039355224" name="MpsLanguage.structure.StructureDefinition" flags="ng" index="1AAW5v">
+        <child id="2427688720039355248" name="structure" index="1AAW5R" />
+        <child id="2427688720039355278" name="fieldDefinitions" index="1AAW69" />
+      </concept>
+      <concept id="2427688720039355232" name="MpsLanguage.structure.IAbstractStructure" flags="ngI" index="1AAW5B">
+        <child id="2427688720039355240" name="elements" index="1AAW5J" />
+      </concept>
+      <concept id="2427688720039355251" name="MpsLanguage.structure.Aggregation" flags="ng" index="1AAW5O" />
+      <concept id="2427688720039355281" name="MpsLanguage.structure.FieldDefinition" flags="ng" index="1AAW6m">
+        <reference id="2427688720039355340" name="field" index="1AAW7b" />
+        <child id="2427688720039355294" name="domain" index="1AAW6p" />
+        <child id="2427688720039355307" name="constraints" index="1AAW6G" />
+      </concept>
+      <concept id="2427688720039355314" name="MpsLanguage.structure.Constraint" flags="ng" index="1AAW6P">
+        <property id="2427688720039355319" name="constraintDefinition" index="1AAW6K" />
+      </concept>
+      <concept id="2427688720039355327" name="MpsLanguage.structure.String" flags="ng" index="1AAW6S" />
+      <concept id="2427688720039355332" name="MpsLanguage.structure.Field" flags="ng" index="1AAW73" />
     </language>
   </registry>
-  <node concept="1AAW5h" id="7CeylrB$XTG" />
+  <node concept="1AAW5h" id="7CeylrB$XTG">
+    <property role="TrG5h" value="Rečnik Podataka" />
+    <node concept="1AAW5v" id="7CeylrB_PNs" role="1AAW5u">
+      <node concept="1AAW5O" id="7CeylrB_PN$" role="1AAW5R">
+        <node concept="1AAW73" id="7CeylrB_PNB" role="1AAW5J">
+          <property role="TrG5h" value="firstName" />
+        </node>
+        <node concept="1AAW73" id="7CeylrB_PNG" role="1AAW5J">
+          <property role="TrG5h" value="lastName" />
+        </node>
+      </node>
+      <node concept="1AAW6m" id="7CeylrB_PNu" role="1AAW69">
+        <property role="TrG5h" value="firstNameDefintion" />
+        <ref role="1AAW7b" node="7CeylrB_PNB" resolve="firstName" />
+        <node concept="1AAW6S" id="7CeylrB_V7F" role="1AAW6p" />
+        <node concept="1AAW6P" id="7CeylrB_PNM" role="1AAW6G">
+          <property role="1AAW6K" value="max length 10" />
+        </node>
+        <node concept="1AAW6P" id="7CeylrB_PNP" role="1AAW6G">
+          <property role="1AAW6K" value="not empty" />
+        </node>
+        <node concept="1AAW6P" id="7CeylrB_V7p" role="1AAW6G">
+          <property role="1AAW6K" value="not null" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

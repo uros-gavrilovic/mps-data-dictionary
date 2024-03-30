@@ -3932,7 +3932,7 @@
                         <node concept="liA8E" id="mq" role="2OqNvi">
                           <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.aggregate(java.lang.String,long)" resolve="aggregate" />
                           <node concept="Xl_RD" id="mr" role="37wK5m">
-                            <property role="Xl_RC" value="constraint" />
+                            <property role="Xl_RC" value="constraints" />
                           </node>
                           <node concept="1adDum" id="ms" role="37wK5m">
                             <property role="1adDun" value="0x21b0e207472b23abL" />

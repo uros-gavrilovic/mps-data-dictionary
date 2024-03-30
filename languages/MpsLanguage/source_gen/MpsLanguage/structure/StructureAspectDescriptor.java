@@ -170,7 +170,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(3);
     b.associate("field", 0x21b0e207472b23ccL).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b23c4L).optional(false).origin("2427688720039355340").done();
     b.aggregate("domain", 0x21b0e207472b239eL).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b239aL).optional(false).ordered(true).multiple(false).origin("2427688720039355294").done();
-    b.aggregate("constraint", 0x21b0e207472b23abL).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b23b2L).optional(true).ordered(true).multiple(true).origin("2427688720039355307").done();
+    b.aggregate("constraints", 0x21b0e207472b23abL).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b23b2L).optional(true).ordered(true).multiple(true).origin("2427688720039355307").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForIAbstractElement() {
