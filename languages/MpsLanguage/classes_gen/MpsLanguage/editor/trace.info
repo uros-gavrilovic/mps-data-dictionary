@@ -13,7 +13,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/5351203823916750322:jetbrains.mps.baseLanguage.structure.TryUniversalStatement" />
   <root>
     <file name="EditorAspectDescriptorImpl.java">
-      <unit at="16,0,62,0" name="MpsLanguage.editor.EditorAspectDescriptorImpl" />
+      <unit at="16,0,64,0" name="MpsLanguage.editor.EditorAspectDescriptorImpl" />
     </file>
     <file name="FieldDefinition_SubstituteMenu.java">
       <unit at="61,0,64,0" name="MpsLanguage.editor.FieldDefinition_SubstituteMenu$CONCEPTS" />
@@ -185,6 +185,73 @@
       <unit id="3975302705257653561" at="68,42,83,5" name="MpsLanguage.editor.SemanticDomain_EditorBuilder_a$1" />
       <unit id="3975302705259940955" at="101,0,147,0" name="MpsLanguage.editor.SemanticDomain_EditorBuilder_a$Inline_Builder0" />
       <unit id="3975302705257653561" at="39,0,161,0" name="MpsLanguage.editor.SemanticDomain_EditorBuilder_a" />
+    </file>
+  </root>
+  <root nodeRef="r:58339744-c010-48a2-a217-8f3c4d5875af(MpsLanguage.editor)/3975302705260225120">
+    <file name="Field_Editor.java">
+      <node id="3975302705260225120" at="11,79,12,71" concept="6" />
+      <node id="3975302705260225120" at="11,0,14,0" concept="4" trace="createEditorCell#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="3975302705260225120" at="11,79,12,71" />
+      <scope id="3975302705260225120" at="11,0,14,0">
+        <var name="editorContext" id="3975302705260225120" />
+        <var name="node" id="3975302705260225120" />
+      </scope>
+      <unit id="3975302705260225120" at="10,0,15,0" name="MpsLanguage.editor.Field_Editor" />
+    </file>
+    <file name="Field_EditorBuilder_a.java">
+      <node id="3975302705260225120" at="29,85,30,19" concept="9" />
+      <node id="3975302705260225120" at="30,19,31,18" concept="1" />
+      <node id="3975302705260225120" at="36,26,37,18" concept="6" />
+      <node id="3975302705260225120" at="40,39,41,30" concept="6" />
+      <node id="3975302705260225122" at="44,41,45,39" concept="1" />
+      <node id="3975302705260225122" at="46,9,47,49" concept="5" />
+      <node id="3975302705260225122" at="47,49,48,76" concept="1" />
+      <node id="3975302705260225122" at="48,76,49,149" concept="5" />
+      <node id="3975302705260225122" at="49,149,50,45" concept="1" />
+      <node id="3975302705260225122" at="50,45,51,44" concept="1" />
+      <node id="3975302705260225122" at="51,44,52,30" concept="1" />
+      <node id="3975302705260225122" at="52,30,53,33" concept="1" />
+      <node id="3975302705260225122" at="53,33,54,86" concept="1" />
+      <node id="3975302705260225122" at="54,86,55,33" concept="1" />
+      <node id="3975302705260225122" at="55,33,56,155" concept="5" />
+      <node id="3975302705260225122" at="56,155,57,208" concept="5" />
+      <node id="3975302705260225122" at="58,74,59,89" concept="5" />
+      <node id="3975302705260225122" at="59,89,60,145" concept="6" />
+      <node id="3975302705260225122" at="61,12,62,24" concept="6" />
+      <node id="3975302705260225122" at="63,15,64,40" concept="1" />
+      <node id="3975302705260225120" at="69,0,70,0" concept="8" trace="name$MnvL" />
+      <node id="3975302705260225120" at="73,0,74,0" concept="8" trace="PropertyAttribute$Gb" />
+      <node id="3975302705260225120" at="26,0,28,0" concept="2" trace="myNode" />
+      <node id="3975302705260225120" at="40,0,43,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="3975302705260225120" at="29,0,33,0" concept="0" trace="Field_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3975302705260225120" at="34,0,39,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="3975302705260225122" at="57,208,62,24" concept="3" />
+      <node id="3975302705260225122" at="45,39,65,5" concept="10" />
+      <node id="3975302705260225122" at="44,0,67,0" concept="4" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="3975302705260225120" at="36,26,37,18" />
+      <scope id="3975302705260225120" at="40,39,41,30" />
+      <scope id="3975302705260225122" at="63,15,64,40" />
+      <scope id="3975302705260225120" at="29,85,31,18" />
+      <scope id="3975302705260225122" at="58,74,60,145">
+        <var name="manager" id="3975302705260225122" />
+      </scope>
+      <scope id="3975302705260225120" at="40,0,43,0" />
+      <scope id="3975302705260225120" at="29,0,33,0">
+        <var name="context" id="3975302705260225120" />
+        <var name="node" id="3975302705260225120" />
+      </scope>
+      <scope id="3975302705260225120" at="34,0,39,0" />
+      <scope id="3975302705260225122" at="46,9,62,24">
+        <var name="currentPropertyAttributes" id="3975302705260225122" />
+        <var name="editorCell" id="3975302705260225122" />
+        <var name="property" id="3975302705260225122" />
+        <var name="propertyAttributes" id="3975302705260225122" />
+      </scope>
+      <scope id="3975302705260225122" at="44,41,65,5" />
+      <scope id="3975302705260225122" at="44,0,67,0" />
+      <unit id="3975302705260225120" at="68,0,71,0" name="MpsLanguage.editor.Field_EditorBuilder_a$PROPS" />
+      <unit id="3975302705260225120" at="72,0,75,0" name="MpsLanguage.editor.Field_EditorBuilder_a$CONCEPTS" />
+      <unit id="3975302705260225120" at="25,0,76,0" name="MpsLanguage.editor.Field_EditorBuilder_a" />
     </file>
   </root>
   <root nodeRef="r:58339744-c010-48a2-a217-8f3c4d5875af(MpsLanguage.editor)/8795118128646813342">
