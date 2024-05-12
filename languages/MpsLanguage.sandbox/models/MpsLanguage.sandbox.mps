@@ -12,6 +12,9 @@
       </concept>
     </language>
     <language id="f06cb947-e5a8-4701-9c06-29d6e3bd07f9" name="MpsLanguage">
+      <concept id="3975302705256539306" name="MpsLanguage.structure.SemanticDomain" flags="ng" index="2yn3wl">
+        <reference id="3975302705259249163" name="structure" index="2yyQaO" />
+      </concept>
       <concept id="2427688720039355222" name="MpsLanguage.structure.DataDictionary" flags="ng" index="1AAW5h">
         <child id="2427688720039355225" name="structures" index="1AAW5u" />
       </concept>
@@ -23,122 +26,98 @@
         <child id="2427688720039355240" name="elements" index="1AAW5J" />
       </concept>
       <concept id="2427688720039355251" name="MpsLanguage.structure.Aggregation" flags="ng" index="1AAW5O" />
-      <concept id="2427688720039355274" name="MpsLanguage.structure.Union" flags="ng" index="1AAW6d" />
       <concept id="2427688720039355281" name="MpsLanguage.structure.FieldDefinition" flags="ng" index="1AAW6m">
+        <property id="3975302705256937772" name="showConstraints" index="2ylymj" />
         <reference id="2427688720039355340" name="field" index="1AAW7b" />
         <child id="2427688720039355294" name="domain" index="1AAW6p" />
         <child id="2427688720039355307" name="constraints" index="1AAW6G" />
       </concept>
-      <concept id="2427688720039355290" name="MpsLanguage.structure.Domain" flags="ng" index="1AAW6t" />
       <concept id="2427688720039355314" name="MpsLanguage.structure.Constraint" flags="ng" index="1AAW6P">
         <property id="2427688720039355319" name="constraintDefinition" index="1AAW6K" />
       </concept>
       <concept id="2427688720039355327" name="MpsLanguage.structure.String" flags="ng" index="1AAW6S" />
-      <concept id="2427688720039355325" name="MpsLanguage.structure.Double" flags="ng" index="1AAW6U" />
+      <concept id="2427688720039355323" name="MpsLanguage.structure.Integer" flags="ng" index="1AAW6W" />
       <concept id="2427688720039355332" name="MpsLanguage.structure.Field" flags="ng" index="1AAW73" />
     </language>
   </registry>
   <node concept="1AAW5h" id="7CeylrB$XTG">
     <property role="TrG5h" value="Rečnik Podataka" />
-    <node concept="1AAW5v" id="7CeylrBAg8t" role="1AAW5u">
-      <property role="TrG5h" value="Sender" />
-      <node concept="1AAW5O" id="7CeylrBAg8_" role="1AAW5R">
-        <node concept="1AAW73" id="7CeylrBAg8C" role="1AAW5J">
+    <node concept="1AAW5v" id="3sF7bYlAXdV" role="1AAW5u">
+      <property role="TrG5h" value="Employee" />
+      <node concept="1AAW5O" id="3sF7bYlAXdZ" role="1AAW5R">
+        <node concept="1AAW73" id="3sF7bYlAXe2" role="1AAW5J">
+          <property role="TrG5h" value="employeeID" />
+        </node>
+        <node concept="1AAW73" id="3sF7bYlAXe7" role="1AAW5J">
           <property role="TrG5h" value="firstName" />
         </node>
-        <node concept="1AAW73" id="7CeylrBAg8H" role="1AAW5J">
+        <node concept="1AAW73" id="3sF7bYlAXef" role="1AAW5J">
           <property role="TrG5h" value="lastName" />
         </node>
-      </node>
-      <node concept="1AAW6m" id="7CeylrBAg8v" role="1AAW69">
-        <property role="TrG5h" value="firstNameDefinition" />
-        <ref role="1AAW7b" node="7CeylrBAg8C" resolve="firstName" />
-        <node concept="1AAW6U" id="7CeylrBAg8L" role="1AAW6p" />
-        <node concept="1AAW6P" id="7CeylrBAg8Q" role="1AAW6G">
-          <property role="1AAW6K" value="must not be null" />
-        </node>
-        <node concept="1AAW6P" id="7CeylrBAg8T" role="1AAW6G">
-          <property role="1AAW6K" value="must be max" />
+        <node concept="1AAW73" id="3sF7bYlAXep" role="1AAW5J">
+          <property role="TrG5h" value="position" />
         </node>
       </node>
-      <node concept="1AAW6m" id="7CeylrBAw0y" role="1AAW69">
-        <property role="TrG5h" value="lastNameDefinition" />
-        <ref role="1AAW7b" node="7CeylrBAg8H" resolve="lastName" />
-        <node concept="1AAW6S" id="7CeylrBAw0E" role="1AAW6p" />
-        <node concept="1AAW6P" id="7CeylrBAw0H" role="1AAW6G">
-          <property role="1AAW6K" value="must not be null" />
+      <node concept="1AAW6m" id="3sF7bYlAXev" role="1AAW69">
+        <property role="2ylymj" value="true" />
+        <property role="TrG5h" value="semantic_employeeID" />
+        <ref role="1AAW7b" node="3sF7bYlAXe2" resolve="employeeID" />
+        <node concept="1AAW6W" id="3sF7bYlAXez" role="1AAW6p" />
+        <node concept="1AAW6P" id="3sF7bYlAXeA" role="1AAW6G">
+          <property role="1AAW6K" value="not null" />
         </node>
-        <node concept="1AAW6P" id="7CeylrBAw0J" role="1AAW6G">
-          <property role="1AAW6K" value="must be max 10 chars" />
-        </node>
-      </node>
-    </node>
-    <node concept="1AAW5v" id="7CeylrBBDdE" role="1AAW5u">
-      <property role="TrG5h" value="Unija" />
-      <node concept="1AAW6d" id="7CeylrBBDe6" role="1AAW5R">
-        <node concept="1AAW73" id="7CeylrBBDeb" role="1AAW5J">
-          <property role="TrG5h" value="poljeA" />
-        </node>
-        <node concept="1AAW73" id="7CeylrBBDeh" role="1AAW5J">
-          <property role="TrG5h" value="poljeB" />
+        <node concept="1AAW6P" id="3sF7bYlAXfy" role="1AAW6G">
+          <property role="1AAW6K" value="greater or equal to 0" />
         </node>
       </node>
-      <node concept="1AAW6m" id="7CeylrBBDdG" role="1AAW69">
-        <property role="TrG5h" value="poljsdsdeA" />
-        <ref role="1AAW7b" node="7CeylrBBDeb" resolve="poljeA" />
-        <node concept="1AAW6P" id="7CeylrBBDeY" role="1AAW6G">
-          <property role="1AAW6K" value="sdsds" />
-        </node>
-        <node concept="1AAW6P" id="7CeylrBBDeV" role="1AAW6G">
-          <property role="1AAW6K" value="must be sdshdshd" />
-        </node>
-        <node concept="1AAW6P" id="7CeylrBBDet" role="1AAW6G">
-          <property role="1AAW6K" value="must not be null" />
-        </node>
-        <node concept="1AAW6t" id="7CeylrBBDdH" role="1AAW6p" />
+      <node concept="1AAW6m" id="3sF7bYlAXeF" role="1AAW69">
+        <property role="TrG5h" value="predefined_firstName" />
+        <ref role="1AAW7b" node="3sF7bYlAXe7" resolve="firstName" />
+        <node concept="1AAW6S" id="3sF7bYlAXeN" role="1AAW6p" />
       </node>
-    </node>
-    <node concept="1AAW5v" id="3sF7bYlsCDV" role="1AAW5u">
-      <property role="TrG5h" value="Agregation" />
-      <node concept="1AAW5O" id="3sF7bYlsCEk" role="1AAW5R">
-        <node concept="1AAW73" id="3sF7bYlsCEn" role="1AAW5J">
-          <property role="TrG5h" value="elementA" />
-        </node>
-        <node concept="1AAW73" id="3sF7bYlsCEF" role="1AAW5J">
-          <property role="TrG5h" value="elementB" />
-        </node>
+      <node concept="1AAW6m" id="3sF7bYlAXeQ" role="1AAW69">
+        <property role="TrG5h" value="predefined_lastName" />
+        <ref role="1AAW7b" node="3sF7bYlAXef" resolve="lastName" />
+        <node concept="1AAW6S" id="3sF7bYlAXf8" role="1AAW6p" />
       </node>
-      <node concept="1AAW6m" id="3sF7bYlsCEp" role="1AAW69">
-        <property role="TrG5h" value="fieldDef_elementA" />
-        <ref role="1AAW7b" node="3sF7bYlsCEn" resolve="elementA" />
-        <node concept="1AAW6U" id="3sF7bYlsCEv" role="1AAW6p" />
-        <node concept="1AAW6P" id="3sF7bYlsCE_" role="1AAW6G">
-          <property role="1AAW6K" value="must not be null" />
+      <node concept="1AAW6m" id="3sF7bYlFnMm" role="1AAW69">
+        <property role="2ylymj" value="true" />
+        <property role="TrG5h" value="semantic_position" />
+        <ref role="1AAW7b" node="3sF7bYlAXep" resolve="position" />
+        <node concept="2yn3wl" id="3sF7bYlFnMn" role="1AAW6p">
+          <ref role="2yyQaO" node="3sF7bYlCWC6" resolve="Position" />
         </node>
-      </node>
-      <node concept="1AAW6m" id="3sF7bYlsCEJ" role="1AAW69">
-        <property role="TrG5h" value="fieldDef_elementB" />
-        <ref role="1AAW7b" node="3sF7bYlsCEF" resolve="elementB" />
-        <node concept="1AAW6t" id="3sF7bYlsCEK" role="1AAW6p" />
-        <node concept="1AAW6P" id="3sF7bYlsCEL" role="1AAW6G">
-          <property role="1AAW6K" value="max length 10" />
+        <node concept="1AAW6P" id="3sF7bYlFnMy" role="1AAW6G">
+          <property role="1AAW6K" value="not null" />
         </node>
       </node>
     </node>
-    <node concept="1AAW5v" id="3sF7bYlsCES" role="1AAW5u">
-      <property role="TrG5h" value="Union" />
-      <node concept="1AAW6d" id="3sF7bYlsCFr" role="1AAW5R">
-        <node concept="1AAW73" id="3sF7bYlsCFu" role="1AAW5J">
-          <property role="TrG5h" value="elementB" />
+    <node concept="1AAW5v" id="3sF7bYlCWC6" role="1AAW5u">
+      <property role="TrG5h" value="Position" />
+      <node concept="1AAW5O" id="3sF7bYlCWCq" role="1AAW5R">
+        <node concept="1AAW73" id="3sF7bYlCWCt" role="1AAW5J">
+          <property role="TrG5h" value="positionID" />
+        </node>
+        <node concept="1AAW73" id="3sF7bYlCWCy" role="1AAW5J">
+          <property role="TrG5h" value="name" />
         </node>
       </node>
-      <node concept="1AAW6m" id="3sF7bYlsCFw" role="1AAW69">
-        <property role="TrG5h" value="fieldDef_elementB" />
-        <ref role="1AAW7b" node="3sF7bYlsCFu" resolve="elementB" />
-        <node concept="1AAW6t" id="3sF7bYlsCFx" role="1AAW6p" />
-        <node concept="1AAW6P" id="3sF7bYlsDyx" role="1AAW6G">
-          <property role="1AAW6K" value="must not be null" />
+      <node concept="1AAW6m" id="3sF7bYlCWCA" role="1AAW69">
+        <property role="2ylymj" value="true" />
+        <property role="TrG5h" value="semantic_positionID" />
+        <ref role="1AAW7b" node="3sF7bYlCWCt" resolve="positionID" />
+        <node concept="1AAW6W" id="3sF7bYlCWCE" role="1AAW6p" />
+        <node concept="1AAW6P" id="3sF7bYlCWCH" role="1AAW6G">
+          <property role="1AAW6K" value="not null" />
         </node>
+        <node concept="1AAW6P" id="3sF7bYlCWCJ" role="1AAW6G">
+          <property role="1AAW6K" value="greater or equal to 0" />
+        </node>
+      </node>
+      <node concept="1AAW6m" id="3sF7bYlFaXX" role="1AAW69">
+        <property role="TrG5h" value="predefined_name" />
+        <ref role="1AAW7b" node="3sF7bYlCWCy" resolve="name" />
+        <node concept="1AAW6S" id="3sF7bYlFaY5" role="1AAW6p" />
       </node>
     </node>
   </node>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="fakdd8wiuftq205atp4dkdyih0vrf0">
-  <files names="Aggregation_Editor.java:Aggregation_EditorBuilder_a.java:Constraint_Editor.java:Constraint_EditorBuilder_a.java:DataDictionary_Editor.java:DataDictionary_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:ExclusiveSpecialization_Editor.java:ExclusiveSpecialization_EditorBuilder_a.java:FieldDefinition_Editor.java:FieldDefinition_EditorBuilder_a.java:FieldDefinition_SubstituteMenu.java:NonExclusiveSpecialization_Editor.java:NonExclusiveSpecialization_EditorBuilder_a.java:StructureDefinition_Editor.java:StructureDefinition_EditorBuilder_a.java:Union_Editor.java:Union_EditorBuilder_a.java" />
+<product version="3" modelHash="-40z9tphgfpyhi44s8minjrgo2yf9ql3">
+  <files names="Aggregation_Editor.java:Aggregation_EditorBuilder_a.java:Constraint_Editor.java:Constraint_EditorBuilder_a.java:DataDictionary_Editor.java:DataDictionary_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:ExclusiveSpecialization_Editor.java:ExclusiveSpecialization_EditorBuilder_a.java:FieldDefinition_Editor.java:FieldDefinition_EditorBuilder_a.java:FieldDefinition_SubstituteMenu.java:NonExclusiveSpecialization_Editor.java:NonExclusiveSpecialization_EditorBuilder_a.java:SemanticDomain_Editor.java:SemanticDomain_EditorBuilder_a.java:SemanticDomain_SubstituteMenu.java:StructureDefinition_Editor.java:StructureDefinition_EditorBuilder_a.java:Union_Editor.java:Union_EditorBuilder_a.java" />
 </product>
 

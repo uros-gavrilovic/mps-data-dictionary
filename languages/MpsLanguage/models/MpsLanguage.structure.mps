@@ -38,8 +38,18 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+      <concept id="4452961908202556907" name="jetbrains.mps.lang.core.structure.BaseCommentAttribute" flags="ng" index="1X3_iC">
+        <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
   </registry>
@@ -79,6 +89,15 @@
     </node>
     <node concept="PrWs8" id="7CeylrBAch2" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1X3_iC" id="3sF7bYlCEED" role="lGtFl">
+      <property role="3V$3am" value="linkDeclaration" />
+      <property role="3V$3ak" value="c72da2b9-7cce-4447-8389-f407dc1158b7/1169125787135/1071489727083" />
+      <node concept="1TJgyj" id="3sF7bYlCpII" role="8Wnug">
+        <property role="IQ2ns" value="3975302705259322286" />
+        <property role="20kJfa" value="semanticDomain" />
+        <ref role="20lvS9" node="3sF7bYltMiE" resolve="SemanticDomain" />
+      </node>
     </node>
   </node>
   <node concept="PlHQZ" id="26KSwt7aMdw">
@@ -150,7 +169,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="domain" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="26KSwt7aMeq" resolve="Domain" />
+      <ref role="20lvS9" node="3sF7bYltMiD" resolve="IAbstractDomain" />
     </node>
     <node concept="1TJgyj" id="26KSwt7aMeF" role="1TKVEi">
       <property role="IQ2ns" value="2427688720039355307" />
@@ -165,11 +184,11 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="26KSwt7aMf4" resolve="Field" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="26KSwt7aMeq">
-    <property role="EcuMT" value="2427688720039355290" />
-    <property role="TrG5h" value="Domain" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3sF7bYlvj$G" role="1TKVEl">
+      <property role="IQ2nx" value="3975302705256937772" />
+      <property role="TrG5h" value="showConstraints" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="26KSwt7aMeM">
     <property role="EcuMT" value="2427688720039355314" />
@@ -184,22 +203,22 @@
   <node concept="1TIwiD" id="26KSwt7aMeV">
     <property role="EcuMT" value="2427688720039355323" />
     <property role="TrG5h" value="Integer" />
-    <ref role="1TJDcQ" node="26KSwt7aMeq" resolve="Domain" />
+    <ref role="1TJDcQ" node="3sF7bYltMiH" resolve="PredefinedDomain" />
   </node>
   <node concept="1TIwiD" id="26KSwt7aMeX">
     <property role="EcuMT" value="2427688720039355325" />
     <property role="TrG5h" value="Double" />
-    <ref role="1TJDcQ" node="26KSwt7aMeq" resolve="Domain" />
+    <ref role="1TJDcQ" node="3sF7bYltMiH" resolve="PredefinedDomain" />
   </node>
   <node concept="1TIwiD" id="26KSwt7aMeZ">
     <property role="EcuMT" value="2427688720039355327" />
     <property role="TrG5h" value="String" />
-    <ref role="1TJDcQ" node="26KSwt7aMeq" resolve="Domain" />
+    <ref role="1TJDcQ" node="3sF7bYltMiH" resolve="PredefinedDomain" />
   </node>
   <node concept="1TIwiD" id="26KSwt7aMf2">
     <property role="EcuMT" value="2427688720039355330" />
     <property role="TrG5h" value="Boolean" />
-    <ref role="1TJDcQ" node="26KSwt7aMeq" resolve="Domain" />
+    <ref role="1TJDcQ" node="3sF7bYltMiH" resolve="PredefinedDomain" />
   </node>
   <node concept="1TIwiD" id="26KSwt7aMf4">
     <property role="EcuMT" value="2427688720039355332" />
@@ -210,6 +229,32 @@
     </node>
     <node concept="PrWs8" id="26KSwt7aMf8" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3sF7bYltMiD">
+    <property role="EcuMT" value="3975302705256539305" />
+    <property role="TrG5h" value="IAbstractDomain" />
+  </node>
+  <node concept="1TIwiD" id="3sF7bYltMiE">
+    <property role="EcuMT" value="3975302705256539306" />
+    <property role="TrG5h" value="SemanticDomain" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3sF7bYltMiF" role="PzmwI">
+      <ref role="PrY4T" node="3sF7bYltMiD" resolve="IAbstractDomain" />
+    </node>
+    <node concept="1TJgyj" id="3sF7bYlC7Sb" role="1TKVEi">
+      <property role="IQ2ns" value="3975302705259249163" />
+      <property role="20kJfa" value="structure" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="26KSwt7aMdo" resolve="StructureDefinition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3sF7bYltMiH">
+    <property role="EcuMT" value="3975302705256539309" />
+    <property role="TrG5h" value="PredefinedDomain" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="PrWs8" id="3sF7bYltMiI" role="PzmwI">
+      <ref role="PrY4T" node="3sF7bYltMiD" resolve="IAbstractDomain" />
     </node>
   </node>
 </model>

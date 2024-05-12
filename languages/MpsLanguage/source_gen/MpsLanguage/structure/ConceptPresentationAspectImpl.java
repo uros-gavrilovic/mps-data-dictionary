@@ -13,16 +13,18 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Boolean;
   private ConceptPresentation props_Constraint;
   private ConceptPresentation props_DataDictionary;
-  private ConceptPresentation props_Domain;
   private ConceptPresentation props_Double;
   private ConceptPresentation props_ExclusiveSpecialization;
   private ConceptPresentation props_Field;
   private ConceptPresentation props_FieldDefinition;
+  private ConceptPresentation props_IAbstractDomain;
   private ConceptPresentation props_IAbstractElement;
   private ConceptPresentation props_IAbstractSpecialization;
   private ConceptPresentation props_IAbstractStructure;
   private ConceptPresentation props_Integer;
   private ConceptPresentation props_NonExclusiveSpecialization;
+  private ConceptPresentation props_PredefinedDomain;
+  private ConceptPresentation props_SemanticDomain;
   private ConceptPresentation props_String;
   private ConceptPresentation props_StructureDefinition;
   private ConceptPresentation props_Union;
@@ -60,13 +62,6 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_DataDictionary = cpb.create();
         }
         return props_DataDictionary;
-      case LanguageConceptSwitch.Domain:
-        if (props_Domain == null) {
-          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
-          cpb.rawPresentation("Domain");
-          props_Domain = cpb.create();
-        }
-        return props_Domain;
       case LanguageConceptSwitch.Double:
         if (props_Double == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -95,6 +90,12 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_FieldDefinition = cpb.create();
         }
         return props_FieldDefinition;
+      case LanguageConceptSwitch.IAbstractDomain:
+        if (props_IAbstractDomain == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          props_IAbstractDomain = cpb.create();
+        }
+        return props_IAbstractDomain;
       case LanguageConceptSwitch.IAbstractElement:
         if (props_IAbstractElement == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -127,6 +128,20 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_NonExclusiveSpecialization = cpb.create();
         }
         return props_NonExclusiveSpecialization;
+      case LanguageConceptSwitch.PredefinedDomain:
+        if (props_PredefinedDomain == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("PredefinedDomain");
+          props_PredefinedDomain = cpb.create();
+        }
+        return props_PredefinedDomain;
+      case LanguageConceptSwitch.SemanticDomain:
+        if (props_SemanticDomain == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByReference(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x372b1cbf957724aaL, 0x372b1cbf95a07e0bL, "structure", "", "");
+          props_SemanticDomain = cpb.create();
+        }
+        return props_SemanticDomain;
       case LanguageConceptSwitch.String:
         if (props_String == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

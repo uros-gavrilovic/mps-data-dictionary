@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="13,0,29,0" name="MpsLanguage.actions.ActionAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:a32834f8-00b9-4a2e-89d8-a57246438a59(MpsLanguage.actions)/3975302705257175527">
+    <file name="ShowConstraintsOnCreateSemanticDomain.java">
+      <node id="3975302705257263878" at="14,102,15,52" concept="2" />
+      <node id="3975302705257265189" at="15,52,16,84" concept="0" />
+      <node id="3975302705257175527" at="21,0,22,0" concept="4" trace="showConstraints$opbl" />
+      <node id="3975302705257175528" at="14,0,18,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="3975302705257175528" at="14,102,16,84">
+        <var name="fieldDefinition" id="3975302705257263881" />
+      </scope>
+      <scope id="3975302705257175528" at="14,0,18,0">
+        <var name="enclosingNode" id="3975302705257175528" />
+        <var name="index" id="3975302705257175528" />
+        <var name="model" id="3975302705257175528" />
+        <var name="newNode" id="3975302705257175528" />
+        <var name="sampleNode" id="3975302705257175528" />
+      </scope>
+      <unit id="3975302705257175527" at="20,0,23,0" name="MpsLanguage.actions.ShowConstraintsOnCreateSemanticDomain$PROPS" />
+      <unit id="3975302705257175528" at="13,0,19,0" name="MpsLanguage.actions.ShowConstraintsOnCreateSemanticDomain$NodeFactory_3975302705257175528" />
+      <unit id="3975302705257175527" at="12,0,24,0" name="MpsLanguage.actions.ShowConstraintsOnCreateSemanticDomain" />
+    </file>
+  </root>
+  <root nodeRef="r:a32834f8-00b9-4a2e-89d8-a57246438a59(MpsLanguage.actions)/3975302705258943494">
+    <file name="CreateStructureOnCreateSemanticDomain.java">
+      <node id="3975302705258945231" at="18,102,19,52" concept="2" />
+      <node id="3975302705258947314" at="19,52,20,84" concept="2" />
+      <node id="3975302705258970442" at="20,84,21,83" concept="2" />
+      <node id="3975302705258970419" at="21,83,22,0" concept="3" />
+      <node id="3975302705258978025" at="22,0,23,208" concept="2" />
+      <node id="3975302705259005474" at="23,208,24,293" concept="0" />
+      <node id="3975302705259249435" at="24,293,25,86" concept="0" />
+      <node id="3975302705259158977" at="25,86,26,0" concept="3" />
+      <node id="3975302705259158997" at="26,0,27,130" concept="0" />
+      <node id="3975302705258943494" at="32,0,33,0" concept="4" trace="structure$WKMy" />
+      <node id="3975302705258943494" at="33,0,34,0" concept="4" trace="structure$Skfs" />
+      <node id="3975302705258943494" at="34,0,35,0" concept="4" trace="structures$Wxxz" />
+      <node id="3975302705258943495" at="18,0,29,0" concept="1" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;ILorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="3975302705258943495" at="18,102,27,130">
+        <var name="dataDictionary" id="3975302705258970445" />
+        <var name="fieldDefinition" id="3975302705258945234" />
+        <var name="newStructureDefintion" id="3975302705258978028" />
+        <var name="structureDefintion" id="3975302705258947317" />
+      </scope>
+      <scope id="3975302705258943495" at="18,0,29,0">
+        <var name="enclosingNode" id="3975302705258943495" />
+        <var name="index" id="3975302705258943495" />
+        <var name="model" id="3975302705258943495" />
+        <var name="newNode" id="3975302705258943495" />
+        <var name="sampleNode" id="3975302705258943495" />
+      </scope>
+      <unit id="3975302705258943494" at="31,0,36,0" name="MpsLanguage.actions.CreateStructureOnCreateSemanticDomain$LINKS" />
+      <unit id="3975302705258943495" at="17,0,30,0" name="MpsLanguage.actions.CreateStructureOnCreateSemanticDomain$NodeFactory_3975302705258943495" />
+      <unit id="3975302705258943494" at="16,0,37,0" name="MpsLanguage.actions.CreateStructureOnCreateSemanticDomain" />
+    </file>
+  </root>
+</debug-info>
+
