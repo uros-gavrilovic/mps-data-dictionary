@@ -99,5 +99,14 @@
       </node>
     </node>
   </node>
+  <node concept="1AAW5h" id="3xwDaJnDvub">
+    <property role="TrG5h" value="Recnik Podataka" />
+    <node concept="1AAW5v" id="3xwDaJnDvux" role="1AAW5u">
+      <node concept="1AAW5B" id="3xwDaJnDvuy" role="1AAW5R" />
+      <node concept="1AAW6m" id="3xwDaJnDvuz" role="1AAW69">
+        <node concept="1AAW6t" id="3xwDaJnDvu$" role="1AAW6p" />
+      </node>
+    </node>
+  </node>
 </model>
 
