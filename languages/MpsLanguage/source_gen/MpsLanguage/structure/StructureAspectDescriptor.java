@@ -230,7 +230,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.origin("r:b1747978-41c4-4b01-97af-14b00f966941(MpsLanguage.structure)/2427688720039355224");
     b.version(3);
     b.aggregate("structure", 0x21b0e207472b2370L).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b2360L).optional(false).ordered(true).multiple(false).origin("2427688720039355248").done();
-    b.aggregate("fieldDefinitions", 0x21b0e207472b238eL).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b2391L).optional(false).ordered(true).multiple(true).origin("2427688720039355278").done();
+    b.aggregate("fieldDefinitions", 0x21b0e207472b238eL).target(0xf06cb947e5a84701L, 0x9c0629d6e3bd07f9L, 0x21b0e207472b2391L).optional(true).ordered(true).multiple(true).origin("2427688720039355278").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForUnion() {

@@ -98,13 +98,47 @@
         <node concept="1AAW6t" id="7CeylrBBDdH" role="1AAW6p" />
       </node>
     </node>
-  </node>
-  <node concept="1AAW5h" id="3xwDaJnDvub">
-    <property role="TrG5h" value="Recnik Podataka" />
-    <node concept="1AAW5v" id="3xwDaJnDvux" role="1AAW5u">
-      <node concept="1AAW5B" id="3xwDaJnDvuy" role="1AAW5R" />
-      <node concept="1AAW6m" id="3xwDaJnDvuz" role="1AAW69">
-        <node concept="1AAW6t" id="3xwDaJnDvu$" role="1AAW6p" />
+    <node concept="1AAW5v" id="3sF7bYlsCDV" role="1AAW5u">
+      <property role="TrG5h" value="Agregation" />
+      <node concept="1AAW5O" id="3sF7bYlsCEk" role="1AAW5R">
+        <node concept="1AAW73" id="3sF7bYlsCEn" role="1AAW5J">
+          <property role="TrG5h" value="elementA" />
+        </node>
+        <node concept="1AAW73" id="3sF7bYlsCEF" role="1AAW5J">
+          <property role="TrG5h" value="elementB" />
+        </node>
+      </node>
+      <node concept="1AAW6m" id="3sF7bYlsCEp" role="1AAW69">
+        <property role="TrG5h" value="fieldDef_elementA" />
+        <ref role="1AAW7b" node="3sF7bYlsCEn" resolve="elementA" />
+        <node concept="1AAW6U" id="3sF7bYlsCEv" role="1AAW6p" />
+        <node concept="1AAW6P" id="3sF7bYlsCE_" role="1AAW6G">
+          <property role="1AAW6K" value="must not be null" />
+        </node>
+      </node>
+      <node concept="1AAW6m" id="3sF7bYlsCEJ" role="1AAW69">
+        <property role="TrG5h" value="fieldDef_elementB" />
+        <ref role="1AAW7b" node="3sF7bYlsCEF" resolve="elementB" />
+        <node concept="1AAW6t" id="3sF7bYlsCEK" role="1AAW6p" />
+        <node concept="1AAW6P" id="3sF7bYlsCEL" role="1AAW6G">
+          <property role="1AAW6K" value="max length 10" />
+        </node>
+      </node>
+    </node>
+    <node concept="1AAW5v" id="3sF7bYlsCES" role="1AAW5u">
+      <property role="TrG5h" value="Union" />
+      <node concept="1AAW6d" id="3sF7bYlsCFr" role="1AAW5R">
+        <node concept="1AAW73" id="3sF7bYlsCFu" role="1AAW5J">
+          <property role="TrG5h" value="elementB" />
+        </node>
+      </node>
+      <node concept="1AAW6m" id="3sF7bYlsCFw" role="1AAW69">
+        <property role="TrG5h" value="fieldDef_elementB" />
+        <ref role="1AAW7b" node="3sF7bYlsCFu" resolve="elementB" />
+        <node concept="1AAW6t" id="3sF7bYlsCFx" role="1AAW6p" />
+        <node concept="1AAW6P" id="3sF7bYlsDyx" role="1AAW6G">
+          <property role="1AAW6K" value="must not be null" />
+        </node>
       </node>
     </node>
   </node>
